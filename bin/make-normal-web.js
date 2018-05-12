@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-console.log('欢迎使用静态web项目目录生成工具！\n\n');
-
 var buildProject = require('../src/index.js');
-buildProject();
+if (!process.argv[2]) {
+    console.log('使用make-web-dir <your-app-name>来创建静态web项目目录。');
+}
