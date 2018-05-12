@@ -1,6 +1,6 @@
 {
   "name": "make-web-dir",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a global tool can make a normal static web project",
   "main": "./src/index.js",
   "bin": {
