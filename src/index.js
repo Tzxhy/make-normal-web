@@ -3,7 +3,7 @@ var path = require('path');
 var projectName = process.argv[2];
 var projectDir = process.cwd();
 var baseDir = path.join(projectDir, projectName);
-// create html file
+
 
 function makeDir(path) {
     try {
