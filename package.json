@@ -1,0 +1,27 @@
+{
+  "name": "make-web-dir",
+  "version": "1.0.2",
+  "description": "a global tool can make a normal static web project",
+  "main": "./src/index.js",
+  "bin": {
+    "make-web-dir": "./bin/make-normal-web.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tzxhy/make-normal-web.git"
+  },
+  "keywords": [
+    "static web",
+    "dir build",
+    "project dir"
+  ],
+  "author": "tzxhy111",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tzxhy/make-normal-web/issues"
+  },
+  "homepage": "https://github.com/Tzxhy/make-normal-web#readme"
+}
